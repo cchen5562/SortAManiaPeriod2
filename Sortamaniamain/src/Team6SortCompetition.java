@@ -45,7 +45,7 @@ public class Team6SortCompetition extends SortCompetition
 	{
 		int median;
 		long start = System.nanoTime();
-		insertionSort(x);
+		bubbleSortInt(x);
 		if(x.length % 2 == 0)
 		{
 			median = (((int)x[x.length/2] + (int)x[x.length-2/2])/2);
